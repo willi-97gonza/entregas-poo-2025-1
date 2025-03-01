@@ -1,3 +1,4 @@
+"""WILLIAM DARIO GONZALEZ ROJAS - 28/02/2025 - TIENDA.1 - JARVISCOLE97S@GMAIL.COM - EL CODIGO SIRVE PARA VERIFICAR LOS PRODUCTOS, PRECIOS, CANTIDAD DISPONIBLE, Y DAR UN PEQUEÑO RESUMEN DEL INVENTARIO """ 
 class Inventario:
     def __init__(self):
         """Inicializa el inventario con algunos productos predefinidos."""
