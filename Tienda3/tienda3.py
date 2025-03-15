@@ -1,4 +1,8 @@
 """WILLIAM DARIO GONZALEZ ROJAS - jarviscole97s@gmail.com - 14/03/2025"""
+"""Este código gestiona un inventario de productos, dividido en dos partes:
+Inventario: Guarda información básica y permite consultar los productos.
+Producto: Contiene detalles y permite calcular precios totales.
+El sistema facilita la interacción y cálculos relacionados con el inventario de productos."""
 # Definimos la clase Inventario para manejar los productos
 class Inventario:
     def __init__(self):
