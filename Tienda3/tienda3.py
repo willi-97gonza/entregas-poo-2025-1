@@ -1,3 +1,4 @@
+"""WILLIAM DARIO GONZALEZ ROJAS - jarviscole97s@gmail.com - 14/03/2025"""
 # Definimos la clase Inventario para manejar los productos
 class Inventario:
     def __init__(self):
