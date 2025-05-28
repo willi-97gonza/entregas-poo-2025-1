@@ -33,7 +33,7 @@ class Mascota:
         self.edad = edad
         self.raza = raza
         self.fecha_ingreso = datetime.datetime.now()
-    
+
     def obtener_tipo(self) -> str:
         """Devuelve el tipo de mascota, basado en el nombre de la clase."""
         return self.__class__.__name__
@@ -56,4 +56,15 @@ def ingresar_mascota(numero: int) -> Union[Perro, Gato]:
             clase = Perro
             tipo_str = "Perro"
             break
-        elif tipo in
+        elif tipo in ['gato', 'g']:
+            clase = Gato
+            tipo_str = "Gato"
+            break
+        else:
+            print("Entrada inválida. Por favor, ingrese 'P' para Perro o 'G' para Gato.")
+
+    nombre = input(f"> Ingrese el nombre del {tipo_str}:\n< ")
+    edad = int(input(f"> Ingrese la edad del {tipo_str}:\n< "))
+    raza = input(f"> Ingrese la raza del {tipo_str}:\n< ")
+
+    return clase(nombre, edad, raza)
